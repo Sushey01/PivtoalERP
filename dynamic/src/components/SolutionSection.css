@@ -216,7 +216,9 @@
     .major-locations{
        display: grid;
        grid-template-columns: 1fr;
-      padding: 0px;
+      padding: 30px;
+      padding-top: 20px;
+      
     }
 
     .ecommerce-contents span{

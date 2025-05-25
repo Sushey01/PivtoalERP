@@ -161,12 +161,25 @@ button{
         padding: 20px;
     }
 
+
+    .contact-page{
+        width: 100%;
+    }
+
   
 
 
     .contact-us{
+        align-self: center;
         padding-bottom: 10px;
         font-size: 20px;
+    }
+
+
+
+
+    .contact-page h1{
+        font-size: 24px;
     }
 
     .second-title h1{
@@ -186,7 +199,6 @@ button{
     .contact-page{
         display: flex;
         flex-direction: column;
-        width: 400px;
     }
 
 
@@ -211,8 +223,7 @@ button{
     .contact-method{
         display: grid;
         grid-template-columns: 1fr;
-        padding: 30px;
-        padding-top: 20px;
+        padding: 20px;
         width: 350px;
     }
 
@@ -230,11 +241,13 @@ button{
 
 
     .contact-img-section{
+        width: 100%;
         padding: 0px;
+        align-self: center;
     }
 
     .contact-img-section img{
-        width: 350px;
+        width: 300px;
     }
 
 }

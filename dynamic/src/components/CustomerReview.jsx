@@ -69,12 +69,12 @@ const CustomerReview = () => {
           </div>
     
           <div className="customer2-container">
-            <h3>
+            <p>
               The AI-driven insights have revolutionized our decision-making
               process. We're now always one step ahead of market trends.The
               AI-driven insights have revolutionized our decision-making
               process. We're now always one step ahead of market trends.
-            </h3>
+            </p>
           </div>
         </div>
 

@@ -8,14 +8,13 @@ const Frequently = () => {
             <div className="frequently-header">
                 <h1 style={{
                     color:"#00A6E0",
-                    fontSize:"32px"
+
                 }}>Frequently</h1>
                 <h1 style={{
-                    fontSize:"32px"
+
                 }}>asked</h1>
                 <h1 style={{
                     color:"#7EB90F",
-                    fontSize:"32px"
                 }}>questions</h1>
             </div>
             <div className="questions-asked">

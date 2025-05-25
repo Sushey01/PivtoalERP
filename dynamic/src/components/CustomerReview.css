@@ -70,7 +70,7 @@ transform: translateX(-20%);
 }
 
 .customer2{
-    width: 600px;
+    width: 100%;
     background-color: #00A6E0;
     position: relative;
     border-radius: 5px;
@@ -87,7 +87,7 @@ transform: translateX(-20%);
 }
 
 
-.customer2-container h3{
+.customer2-container p{
    /* margin-top: 60px; */
    font-size: 16.5px;
    
@@ -164,7 +164,7 @@ transform: translate(25%, -50%);
 
 
 
-@media(max-width:645px){
+@media(max-width:445px){
 
 
     .customer-heading{
@@ -172,10 +172,11 @@ transform: translate(25%, -50%);
     }
 
     .customer-reviews{
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-        padding: 20px;
+        padding: 40px;
     }
 
     .customer1{
@@ -200,15 +201,13 @@ transform: translate(25%, -50%);
 
 
     .customer2-container{
-        width: 100%;
+        width: 370px;
+        position: relative;
         padding: 20px;
     }
 
 
-    .customer2-container h3{
-        width: 100%;
-        color: #ffffff;
-    }
+ 
 
 
     .customer2-image{
@@ -216,10 +215,16 @@ transform: translate(25%, -50%);
         transform: none;
     }
 
-    .customer2-container h3{
-        transform: none;
-        position: static;
+
+    .customer2-container p{
+        color: #ffffff;
+        transform: translateY(-10%);
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: start;
+        margin-right: 20px;
     }
+
 
 
     .customer3{
@@ -252,8 +257,8 @@ transform: translate(25%, -50%);
         padding: 20px;
     }
 
-    .customer2-container h3{
-        transform: translateY(-50%);
+    .customer2-container p{
+        transform: translateY(-30%);
         width: 370px;
         text-align: center;
     }

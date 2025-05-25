@@ -13,6 +13,10 @@
   align-self: center;
 }
 
+.frequently-header h1{
+  font-size: 32px;
+}
+
 .questions-asked {
   display: flex;
   flex-direction: column;
@@ -62,6 +66,18 @@
 @media (max-width: 645px) {
 
 
+
+ 
+  .frequently-header{
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .frequently-header h1{
+    font-size: 24px;
+    font-weight: 500;
+  }
 
   .questions-asked {
     display: flex;

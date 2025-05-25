@@ -214,7 +214,6 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
         }
 
 
@@ -263,7 +262,7 @@
 @media(max-width:1024px){
     .main-chart-container{
         width: 100%;
-        padding: 20px;
+        padding: 40px;
     }
 
     .container{
@@ -285,7 +284,7 @@
 
     .schedule-container{
         width: 100%;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     .schedule-form{
