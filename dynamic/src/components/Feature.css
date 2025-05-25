@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.section1{
+    background-color: #F4F4F4;
+}
+
+
+
+.modules-features{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.feature-heading{
+    display: flex;
+    border: 1px solid #F4F4F4;
+   background-color: #F4F4F4;
+   padding: 30px;
+}
+
+
+.feature-heading h2{
+    font-size: 30px;
+    font-weight: 500;
+    /* padding: 80px; */
+    margin-left: 50px;
+}
+
+
+.six-features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+
+.first-feature{
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+    gap: 12px;
+}
+
+.first-feature-box{
+    width: 300px;
+}
+
+.first-feature-box p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+.second-feature-box{
+    padding: 25px;
+    width: 300px;
+}
+
+.second-feature-box p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+
+.third-feature-box{
+    padding: 25px;
+    width: 300px;
+}
+
+.third-feature-box p{
+    padding-top: 10px;
+}
+
+.fourth-feature-box p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+.fourth-feature-box{
+    padding: 25px;
+    width: 300px;
+}
+
+.fifth-feature-box p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+.fifth-feature-box{
+    padding: 25px;
+    width: 300px;
+}
+
+
+.sixth-feature-box{
+    padding: 25px;
+    width: 300px;
+}
+
+.sixth-feature-box p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+
+.feature-button {
+    align-self: center;
+}
+
+
+.feature-button button{
+    border: 1px solid #00A6E0;
+    padding: 15px;
+    width: 200px;
+    font-size: 16px; 
+    background-color: #00A6E0;
+    color: #F4F4F4;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+
+
+
+@media (max-width:645px){
+
+    
+   
+
+    .modules-features{
+        padding-left: 0px;
+    }
+
+
+    .feature-heading{
+        padding: 20px;
+    }
+
+    .feature-heading h2{
+        font-size: 22px;
+        /* width: 350px; */
+       
+    }
+
+    .six-features{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        padding: 25px;
+    }
+
+}
+
+
+@media(max-width:820px){
+    .modules-features{
+        width: 100%;
+    }
+
+    .six-features{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .feature-button{
+        align-self: center;
+    }
+}
+
