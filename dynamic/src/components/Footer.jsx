@@ -7,7 +7,7 @@ export default function Footer() {
     <section className="section9">
       <div className="footer-container">
         <div className="footer-logo">
-          <img src={FooterLogo}></img>
+          <img src={FooterLogo}/>
           <h3>
             Pivotal ERP is a next-generation business management solution
             designed to streamline operations, enhance productivity, and drive
