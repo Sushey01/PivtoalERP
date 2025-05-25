@@ -80,7 +80,7 @@ function CustomArrows() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: false
+          infinite: true
         }
       }
     ]

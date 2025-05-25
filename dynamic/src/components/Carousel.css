@@ -26,9 +26,19 @@
 
 @media(max-width:645px){
 
-    
+    .slider-container{
+        width: 100%;
+    }
 
     .images{
+        width: 100%;
+        padding: 0px;
         margin-left: 20%;
+    }
+
+
+    .slick-track{
+        width: 100%;
+        padding: 0px;
     }
 }

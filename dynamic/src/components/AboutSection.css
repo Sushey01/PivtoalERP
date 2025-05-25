@@ -190,6 +190,7 @@
 .total-company-network {
   display: flex;
   flex-direction: column;
+  width: 100%;
   /* position: relative; */
   align-items: center;
   gap: 10px;
@@ -389,6 +390,10 @@
 .total-customers{
   display: flex;
   align-items: flex-start;
+}
+
+.slide-images{
+  width: 100%;
 }
 
 }
