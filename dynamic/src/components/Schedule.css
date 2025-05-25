@@ -6,30 +6,28 @@
 .main-chart-container{
     display: flex;
     padding: 80px;
+    width: 100%;
 }
 
 .chart-container{
     display: flex;
-    gap: 30px;
+    width: 100%;
+    gap: 20px;
 }
 
 
 .two-charts{
     display: flex;
-    width: 580px;
+    width: 50%;
     align-self: center;
     height: 330px;
     color: #F4F4F4;
 }
 
 
-/* .first-chart{
-    border: 1px solid ;
-} */
 
 .blank{
     background-color: rgba(126, 185, 15, 0.2);
-    /* border: 1px solid; */
     padding: 50px;
     width: 285px;
     height: 160px;
@@ -63,24 +61,24 @@
 
 
 .schedule-container{
-    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 650px;
+    width: 50%;
 }
 
 
 .schedule-title{
     border: 1px solid white;
-    /* align-self: center; */
     justify-items: center;
     color: #7EB90F;
     border-radius: 5px;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .schedule-form{
+    width: 100%;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -92,18 +90,20 @@
 
 
 .first-last-name{
+    width: 100%;
     display: flex;
     gap: 30px;
-   /* justify-content: space-evenly; */
 }
 
 .fname{
+    width: 100%;
     display: flex;
     gap: 5px;
     flex-direction: column;
 }
 
 .lname{
+    width: 100%;
     display: flex;
     gap: 5px;
     flex-direction: column;
@@ -111,63 +111,67 @@
 
 
 .first-name{
+    width: 100%;
     padding: 15px;
     border: 1px solid #8D8D8D;
     border-radius: 5px;
-    width: 250px;
     padding-left: 25px;
 }
 
 .last-name{
+    width: 100%;
     padding: 15px;
     border: 1px solid #8D8D8D;
     border-radius: 5px;
-    width: 250px;
     padding-left: 25px;
 }
 
 
 .email-address{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
 .email{
+    width: 100%;
     border: 1px solid #8D8D8D;
     border-radius: 5px;
     padding: 15px;
-    width: 530px;
     padding-left: 23px;
 }
 
 
 .company-name{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
 .company{
+    width: 100%;
     border-radius: 5px;
     padding: 15px;
-     width: 530px;
     border: 1px solid #8D8D8D;
     padding-left: 22px;
 }
 
 .condition-message{
+    width: 100%;
     display: flex;
     gap: 10px;
 }
 
 .condition-message h1{
+    width: 100%;
     font-size: 12px;
     font-weight: 400;
 }
 
 .send-button .schedule-button{
-    width: 530px;
+    width: 100%;
 }
 
 
