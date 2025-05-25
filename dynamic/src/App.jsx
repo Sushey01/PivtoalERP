@@ -10,7 +10,6 @@ import CustomerReview from './components/CustomerReview';
 import Schedule from './components/Schedule';
 import Frequently from './components/Frequently';
 import Footer from './components/Footer';
-import Carousel from './components/Carousel';
 
 export default function App() {
   return (
