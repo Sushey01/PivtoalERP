@@ -83,7 +83,7 @@ nav svg{
         /* right: 0; */
         left: 0;
         /* z-index: 10; */
-        background-color: grey;
+        background-color: white;
         /* transform: translateY(-50%); */
         width: 200px;
         justify-content: flex-start;
@@ -96,6 +96,12 @@ nav svg{
         width: 100%;
         padding: 20px 20px;
         justify-content: flex-start;
+        color: #7E7E7E;
+    }
+
+    nav a:hover{
+        transition: 0.3s;
+        color: #00A6E0;
     }
 
     .open-sidebar-button, .close-sidebar-button{
