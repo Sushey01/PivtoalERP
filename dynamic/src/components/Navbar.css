@@ -10,7 +10,7 @@
 }
 
 .logo-image{
-    padding-left: 80px;
+    padding-left: 75px;
 }
 
 
@@ -21,20 +21,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 60px;
 }
 
 
 nav a{
     height: 100%;
     padding: 0 20px;
+    color: #7E7E7E;
     display: flex;
     align-items: center;
     text-decoration: none;
-    /* justify-items: end; */
+    
 }
 
 nav a:hover{
-    background-color: aqua;
+    color: #00A6E0;
     transition-duration: 0.3s;
 }
 

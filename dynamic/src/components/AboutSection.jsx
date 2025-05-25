@@ -6,13 +6,7 @@ import AboutImage2 from "../assets/images/about2.png";
 import AboutImage3 from "../assets/images/about3.png";
 import AboutImage4 from "../assets/images/about4.png";
 import AboutImage5 from "../assets/images/about5.png";
-import Company1 from "../assets/images/company1.png";
-import Company2 from "../assets/images/company2.png";
-import Company3 from "../assets/images/company3.png";
-import Company4 from "../assets/images/company4.png";
-import Company5 from "../assets/images/company5.png";
-import Company6 from "../assets/images/company6.png";
-import Company7 from "../assets/images/company7.png";
+
 
 const AboutSection = () => {
   return (

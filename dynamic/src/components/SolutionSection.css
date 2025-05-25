@@ -10,9 +10,23 @@
 }
 
 .solution-title{
-    padding-top: 80px;
+    padding-top: 50px;
     margin-left: 80px;
     margin-right: 80px;
+}
+
+
+.solution-head{
+    display: flex;
+}
+
+.solution-heading{
+    display: grid;
+}
+
+
+.solution-title h2{
+    padding-bottom: 30px;
 }
 
 .solution-title h2{

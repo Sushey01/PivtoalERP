@@ -54,10 +54,6 @@ export default function App() {
         <Frequently />
       </div>
 
-      <div id="carousel">
-        <Carousel />
-      </div>
-
       <Footer />
     </div>
   );

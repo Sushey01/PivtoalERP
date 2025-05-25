@@ -11,7 +11,21 @@ const Features = () => {
   return (
     <section className='section1'>
         <div className="modules-features">
-            <div className='feature-heading'><h2>Core ERP Modules & Features </h2>
+            <div className='feature-heading'>
+              <h2>Core ERP  </h2>
+              <h2 style={{
+                color:"#00A6E0",
+                marginLeft:"10px"
+              }}>
+                Modules 
+              </h2>
+              <h2 style={{
+                marginLeft:"10px"
+              }}>&</h2>
+              <h2 style={{
+                color:"#7EB90F",
+                marginLeft:"10px"
+              }}>Features</h2>
             </div>
             <div className="six-features">
             <div className="first-feature">

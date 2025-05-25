@@ -9,11 +9,25 @@ const SolutionSection = () => {
     <section className="section2">
       <div className="solution-page">
         <div className="solution-title">
-          <h2>Industry-Specific Solutions</h2>
-          <h3>
+
+          <div className="solution-head">
+            <h2 style={{
+              color:"#00A6E0"
+            }}>Industry</h2>
+          <h2 style={{
+            paddingRight:"7px"
+          }}>-Specific </h2>
+          <h2 style={{
+            color:"#7EB90F"
+          }}>Solutions</h2>
+          </div>
+          
+          <div className="solution-heading">
+             <h3>
             Whether you run a retail store, manufacturing business, or
             service-based enterprise, our ERP adapts to you!
           </h3>
+          </div>
         </div>
 
         <div className="major-locations">

@@ -144,9 +144,10 @@
         width: 100%;
     }
 
-    .info-1{
+     .info-1{
+        width: 100%;
        padding: 20px 20px 20px 20px;
-    }
+     }  
 
 
     .info-1 img{
@@ -160,7 +161,11 @@
 
     .info-2{
         padding: 20px 20px 20px 20px;
+        width: 100%;
     }
+
+
+    
 
 
     .small-info{
