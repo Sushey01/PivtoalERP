@@ -167,8 +167,11 @@
         display: grid;
         /* grid-template-columns: repeat(2, 1fr); */
         margin: 0px;
-        padding: 30px;
+        padding: 40px;
     }
+
+
+
 
     .feature-button{
         align-self: center;
