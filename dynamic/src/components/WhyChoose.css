@@ -223,7 +223,7 @@
     .choose-pivotal-main{
         justify-self: center;
         width: 100%;
-        padding: 0px 0px 0px 0px;
+        padding: 40px;
 
     }
 
@@ -240,7 +240,6 @@
 
     .container-div .choose-pivotal-image img{
         width: 300px;
-        margin-left: 5px;
     }
 
 
@@ -255,7 +254,6 @@
         display: grid;
         grid-template-columns: 1fr;
        width: 100%;
-       padding: 30px;
        justify-items: center;
     }
 
@@ -305,6 +303,8 @@
     .why-choose-title{
         width: 100%;
         padding: 40px;
+        padding-bottom: 0px;
+        justify-content: center;
     }
 
 
@@ -313,7 +313,34 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin-top: 0px;
     }
+
+    .blue-container, .container-div, .choose-pivotal-image{
+        width: 100%;
+    }
+
+    .choose-pivotal-image img{
+        width: 550px;
+    }
+
+
+    .five-reasons{
+        width: 100%;
+    }
+
+    .all-in-one, .scalable, .enterprise, .data-driven, .mobile-cloud{
+        width: 100%;
+    }
+
+    /* .first-div, .second-div, .third-div, .fourth-div, .fifth-div{
+        width: 100%;
+    } */
+
+
+
+
+
 
     
 }

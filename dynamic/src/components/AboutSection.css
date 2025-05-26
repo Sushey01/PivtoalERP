@@ -249,7 +249,7 @@
 @media (max-width: 645px) {
 
   .about-pivotal {
-    padding: 24px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -383,7 +383,8 @@
 
  .total-count{
   font-size: 15px;
-  padding: 20px;
+  padding: 40px;
+  padding-top: 20px;
   text-align: center;
 }
 

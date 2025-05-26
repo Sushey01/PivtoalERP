@@ -73,7 +73,7 @@ nav svg{
 
 
   .logo-image {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 
@@ -95,7 +95,7 @@ nav svg{
         background-color: white;
         /* transform: translateY(-50%); */
         width: 200px;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
     }
 
 

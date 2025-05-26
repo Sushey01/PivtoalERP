@@ -27,7 +27,7 @@ const Features = () => {
                 marginLeft:"10px"
               }}>Features</h2>
             </div>
-            <div className="six-features">
+          <div className="six-features">
             <div className="first-feature">
               <div className="first-feature-box">
                 <img src={Feature1}></img>

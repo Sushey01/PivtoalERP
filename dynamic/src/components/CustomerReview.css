@@ -164,7 +164,7 @@ transform: translate(25%, -50%);
 
 
 
-@media(max-width:445px){
+@media(max-width:645px){
 
 
     .customer-heading{
@@ -201,7 +201,7 @@ transform: translate(25%, -50%);
 
 
     .customer2-container{
-        width: 370px;
+        width: 100%;
         position: relative;
         padding: 20px;
     }
@@ -218,11 +218,12 @@ transform: translate(25%, -50%);
 
     .customer2-container p{
         color: #ffffff;
-        transform: translateY(-10%);
+        position: static;
+        transform: none;
         font-size: 12px;
         padding-top: 10px;
+        padding-right: 65px;
         text-align: start;
-        margin-right: 20px;
     }
 
 

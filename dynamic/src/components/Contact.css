@@ -143,8 +143,8 @@ button{
 
 
 .contact-img-section{
-    width: 40%;
-    padding-left: 50px;
+    width: 100%;
+    /* padding-left: 50px; */
 }
 
 
@@ -154,6 +154,7 @@ button{
     
 
     .main-contact{
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
@@ -199,6 +200,7 @@ button{
     .contact-page{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
 
@@ -223,20 +225,13 @@ button{
     .contact-method{
         display: grid;
         grid-template-columns: 1fr;
-        padding: 20px;
-        width: 350px;
+        /* padding: 20px; */
+        width: 100%;
+        padding-top: 10px;
     }
 
-    .call-us{
-        width: 300px;
-    }
-
-    .chat-team{
-        width: 300px;
-    }
-
-    .product-demo{
-        width: 300px;
+    .call-us, .chat-team, .product-demo{
+        width: 100%;
     }
 
 
@@ -247,13 +242,14 @@ button{
     }
 
     .contact-img-section img{
-        width: 300px;
+        width:100%;
+        /* padding-right: 20px; */
     }
 
 }
 
 
-@media(max-width=1300px){
+/* @media(max-width:1300px){
     .main-contact{
         display: grid;
         grid-template-columns: 1fr;
@@ -269,7 +265,7 @@ button{
     }
 
 
-}
+} */
 
 
 @media(max-width:820px){
@@ -281,9 +277,24 @@ button{
 
     }
 
+    .contact-page{
+        width: 100%;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .contact-page p{
+        padding: 20px;
+    }
+
 
     .contact-img-section{
-        margin-left: 70px;
+        width: 100%;
+    }
+
+
+    .contact-img-section img{
+        width: 100%;
     }
 
 

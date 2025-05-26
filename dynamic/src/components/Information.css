@@ -41,6 +41,7 @@
     justify-items: center;
     border-radius: 10px;
     width: 460px;
+
     padding: 80px;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -156,7 +157,8 @@
     }
 
     .info-1 p{
-        width: 260px;
+        width: 100%;
+        text-align: center;
     }
 
     .info-2{
@@ -218,8 +220,14 @@
         align-items: center;
     }
 
+
+    .info-1{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     .six-infos{
         width: 100%;
-        
+        padding: 20px;
     }
 }
