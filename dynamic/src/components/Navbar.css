@@ -61,7 +61,7 @@ nav svg{
 
 
 
-@media(max-width:450px){
+@media(max-width:640px){
 
 
     .main-container{
@@ -91,9 +91,10 @@ nav svg{
         top: 0;
         /* right: 0; */
         left: 0;
-        /* z-index: 10; */
+        z-index: 1000;
         background-color: white;
-        /* transform: translateY(-50%); */
+        color: #7E7E7E;
+        transform: translateY(-70%);
         width: 200px;
         /* justify-content: flex-start; */
     }
