@@ -2,7 +2,7 @@ PivotalERP
 Welcome to PivotalERP! This is the main project website of the Dynamic Company, designed as an ERP system to streamline business processes and improve efficiency. While it's still under development, it showcases key features that will be refined over time.
 
 🌐 Live Preview
-Check out the project live here: PivotalERP
+Check out the project live here: https://dynamic-six-iota.vercel.app
 
 📌 About This Project
 I was given the opportunity by my supervisor to design the UI frontend for this project. It's been an incredible experience working on the interface that will help businesses manage their operations effectively.
